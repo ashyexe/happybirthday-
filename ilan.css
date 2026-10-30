@@ -1,0 +1,25 @@
+.flower-petal_8 {
+  top: 50%;
+  left: 10%;
+  border-radius: 0px 100% 50% 100% / 0px 100% 30% 100% ;
+  transform: rotate(225deg) scale(1);
+}
+
+.flower-Ligth {
+  width: 3cqi;
+  aspect-ratio: 1;
+  position: absolute;
+  border-radius: 50%;
+  fill-opacity: 0;
+}
+
+.flower-Ligth:-nth-child(odd) {
+  background-color: #ffe4a0;
+  filter: blur(2cqi) drop-shadow(0 0 5cqi #ffd85f);
+}
+
+.flower-Ligth:-nth-child(even) {
+  background-color: #ff6236;
+  filter: blur(2cqi) drop-shadow(8px 8px 5cqi #ff6236);
+}
+  
